@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Raleway:ital,wght@1,700&display=swap');
+
+* {
+    font-family: "Open+Sans", sans-serif;
+    font-size: 11px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.first {
+    margin-left: 15px;
+}
+
+.first:active {
+    text-decoration: solid;
+    color: black;
+}
+
+.browse:link {
+    text-decoration: underline;
+    color: hsl(170, 45%, 43%);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+h2,
+h5 {
+    font-family: "Raleway", sans-serif;
+    color: black;
+}
+
+.false-footer {
+    display: flex;
+}
+
+.box {
+    padding: 10px;
+    margin: 20px;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+
+.avatar {
+    width: 15%;
+    border-radius: 50px;
+}
+
+strong,
+small {
+    color: black;
+}
+
+.curve {
+    width: 100%;
+}
+
+.social {
+    width: 19px;
+    padding: 0px 8px 0px 0px;
+
+}
+
+#sec-2 {
+    padding-left: 10px;
+    background-color: hsl(240, 75%, 98%);
+}
+
+button {
+    background-color: hsl(224, 93%, 58%);
+    border: 5px solid hsl(224, 93%, 58%);
+}
+
+nav {
+    color: hsl(0, 0%, 75%);
+    padding: 20px;
+    background-color: hsl(238, 22%, 44%);
+}
+
+footer {
+    color: hsl(0, 0%, 75%);
+    background-color: hsl(243, 87%, 12%);
+}
+
+.sub-logo {
+    width: 150px;
+    padding: 40px 0px 0px 10px;
+}
+
+.click {
+    color: white;
+}
+
+.write {
+    color: black;
+}
+
+.attribution {
+    text-align: center;
+}
+
+.me:hover {
+    font-size: 25px;
+    color: white;
+
+}
+
+i {
+    font-size: 15px;
+    margin-right: 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+/*Responsiveness on large screen*/
+@media screen and (min-width:576px) {
+    #pics {
+        width: 85%;
+        height: 80%;
+    }
+
+    .box {
+        width: 60%;
+    }
+
+    #type {
+        padding: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.8);
+    }
+
+    #type,
+    #press {
+        width: 100%;
+        border-radius: 3px;
+    }
+
+    #click {
+        width: 40%;
+    }
+
+    #write {
+        width: 80%;
+        padding: 6px;
+    }
+
+    .move {
+        margin-left: 10px;
+    }
+
+}
+
+/*Responsiveness on small screen*/
+@media screen and (max-width:575px) {
+    #begins {
+        display: inline;
+        width: 10%;
+        text-align: start;
+    }
+
+    #beginning {
+        margin-left: 20%;
+        display: inline;
+        width: 60%;
+        text-align: end;
+    }
+
+    .space {
+        order: 1;
+    }
+
+    .logo {
+        width: 70px;
+    }
+
+    .first {
+        font-size: 15px;
+        margin-left: 8px;
+    }
+
+    .write,
+    .click {
+        display: block;
+        margin: 10px 0px;
+        width: 100%;
+    }
+
+    .write {
+        padding: 5px;
+        color: black;
+    }
+
+    #reduce {
+        text-align: center;
+        order: 2;
+    }
+
+    .avatar {
+        margin-right: 8px;
+    }
+
+    strong {
+        padding-right: 40px;
+    }
+
+    #reduces {
+        text-align: center;
+    }
+
+    #pics {
+        text-align: center;
+        width: 90%;
+        height: 70%px;
+        order: 1;
+    }
+
+    #one,
+    #two,
+    #three,
+    #four {
+        margin-top: 20px;
+    }
+
+    #four {
+        text-align: center;
+    }
+
+
+}
